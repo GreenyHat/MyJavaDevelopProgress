@@ -14,14 +14,21 @@ public class Ex_2 {
     ////////////////////*COFFE SHOP:*////////////////////////
     
 public static void main(String[] args){   
-    
-  Scanner sc = new Scanner(System.in); 
+    int coffeNum, toastNum, juiceNum;
+    double coffePrize = 1.1, toastPrize = 1.5, juicePrize = 2, cuenta = 0;
+    Scanner scKey = new Scanner(System.in);
   
-    int coffeCons = sc.nextInt(),toastCons = sc.nextInt(), juiceCons = sc.nextInt();//this variables will save the consumed products.
+    System.out.println("How many coffees are you going to drink?");
+    coffeNum = scKey.nextInt();
     
-    String terminalBarman="What Can I help you?";
+   System.out.println("How many toasts?");
+   toastNum = scKey.nextInt();
     
-    System.out.print();
+   System.out.println("Any juice?");
+   juiceNum = scKey.nextInt();
+   
+   cuenta = (coffePrize*coffeNum) + (juiceNum*juicePrize) + (toastNum*toastPrize);
+   System.out.println("Well, the account would be: " + cuenta + "$");
     
    
     
