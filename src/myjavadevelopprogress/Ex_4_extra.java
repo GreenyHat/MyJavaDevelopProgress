@@ -11,13 +11,23 @@ package myjavadevelopprogress;
 import java.util.Scanner;
 
 public class Ex_4_extra {
+    
+    /*In the beginning, the resolution of the exercise was a disaster,
+    I went directly to code without thinking about the algorithm or the different phases. 
+                                    SPOILER:
+      IT'S NEVER A GOOD IDEA... LESSON LEARNED: THINK 1 HOUR PROGRAM 10 MINUTES
+    */
+    
+    
+    
      public static void main(String[] args){ 
          
-    double heigh=0.0, heighSum=0.0, media=0.0, max = 0.0, less = 0.0;
+    Float heigh=0.0f, heighSum=0.0f, media=0.0f, max = 0.0f, less = 0.0f;
     int counter = 0, members=0, console;
     Scanner scKey = new Scanner (System.in);
 
-   System.out.println("Whats your intention?: \n" + 
+    do{
+        System.out.println("Whats your intention?: \n" + 
            "0. Exit\n" + 
            "1. Introduce info: \n"+
            "2. Show me the average \n"+
@@ -30,98 +40,81 @@ public class Ex_4_extra {
            
 
             
-          case 0:
+             case 0:
 
                System.out.println("You have left the program");
                break;
                
-           case 1: 
-            do{
+             case 1: 
+        
                    
-               System.out.println("Number of particimant (press 0 twice if you want to go back to the menu) : ");
+               System.out.println("Number of particimant: ");
                members = scKey.nextInt();
                counter++;
                
                System.out.println("Heigh: ");
-               heigh = scKey.nextDouble();   
-               if (heigh > max) {
-
-                max = heigh;
-                
-               } 
-             else if (heigh>less&&less < max) {
-                less = heigh;
-               }
-
-              heighSum+=heigh;
-            }while(members > 0);
-
+               heigh = scKey.nextFloat();   
+               heighSum+=heigh;
+           
+               
+               
+               
+               
+                              
+                 if (heigh > max) {
+                     max=heigh;
+                     }
                      
-         
-           System.out.println("Whats your intention?: \n" + 
-           "0. Exit\n" + 
-           "1. Introduce info: \n"+
-           "2. Show me the average \n"+
-           "3. Show me the bigger heigh \n" + 
-           "4. Show me the smaller heigh");
-            console=scKey.nextInt();
-            
-      
-            switch(console){
-           case 2:
+                     
+                  if (heigh < max && heigh !=0) {
+                    less = heigh ;//no me devuelve el MENOR, SINO EL ULTIMO MENOR INTRODUCIDO
+                    }
+                
+           
+               
+               
+               
               
-             media= heighSum/(counter-1);
+        
+           
+              case 2:
+                  
+             
+
+              
+             media= heighSum/(counter);
              
              System.out.print("This is the average: " + media + "\n");
              
-             System.out.println("Whats your intention?: \n" + 
-           "0. Exit\n" + 
-           "1. Introduce info: \n"+
-           "2. Show me the average \n"+
-           "3. Show me the bigger heigh \n" + 
-           "4. Show me the smaller heigh");
-            console=scKey.nextInt();
-            
-        
-            }
-           
-            switch (console) {
+             break;
              
-                case 3: 
+               case 3: 
 
-                
+              
 
                  System.out.println("The max heigh is: " + max+ "\n") ;
-
-                 System.out.println("Whats your intention?: \n" + 
-                 "0. Exit\n" + 
-                 "1. Introduce info: \n"+
-                 "2. Show me the average \n"+
-                 "3. Show me the bigger heigh \n" + 
-                 "4. Show me the smaller heigh");
-                  console=scKey.nextInt();
-            }
-
-                switch(console){
-                 case 4:
-                
-                 System.out.println("The minimum heigh is: " + less + "\n"); 
-                 System.out.println("Whats your intention?: \n" + 
-                 "0. Exit\n" + 
-                 "1. Introduce info: \n"+
-                 "2. Show me the average \n"+
-                 "3. Show me the bigger heigh \n" + 
-                 "4. Show me the smaller heigh");
-                  console=scKey.nextInt();
-                }
-
+                 break;
 
             
-       
-                            
+
+               
+               case 4:
+            
+                
+                 System.out.println("The minimum heigh is: " + less + "\n"); 
+                 break;
         }
+    
+            }while(console != 0);
+                      
+        
+          
+     
+        
     }
 }
+    
+
 
 
         
