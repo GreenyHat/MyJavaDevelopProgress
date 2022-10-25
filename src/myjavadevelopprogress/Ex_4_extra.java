@@ -22,7 +22,7 @@ public class Ex_4_extra {
     
      public static void main(String[] args){ 
          
-    Float heigh=0.0f, heighSum=0.0f, media=0.0f, max = 0.0f, less = 0.0f;
+    Float heigh=0.0f, heighSum=0.0f, media=0.0f, max = 0.0f, less = 3.0f;
     int counter = 0, members=0, console;
     Scanner scKey = new Scanner (System.in);
 
@@ -66,16 +66,9 @@ public class Ex_4_extra {
                      }
                      
                      
-                  if (heigh < max && heigh !=0) {
+                  if (heigh < less) {
                     less = heigh ;//no me devuelve el MENOR, SINO EL ULTIMO MENOR INTRODUCIDO
-                    }
-                
-           
-               
-               
-               
-              
-        
+                    }break;
            
               case 2:
                   
