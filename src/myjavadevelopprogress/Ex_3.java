@@ -23,7 +23,7 @@ public static void main(String[] args){
     dayBorn = scKey.nextInt();
     System.out.println("and what month?, please introduce one or two numbers, my level of programming does not allow me another solution ");
     monthBorn = scKey.nextInt();
-    
+    scKey.close();
     ///////////ARIES////////////////
     
     if (dayBorn >=21 && dayBorn <= 31 && monthBorn == 3 ) {
