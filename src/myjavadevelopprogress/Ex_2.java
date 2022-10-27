@@ -26,7 +26,7 @@ public static void main(String[] args){
     
    System.out.println("Any juice?");
    juiceNum = scKey.nextInt();
-   
+   scKey.close();
    account = (coffePrize*coffeNum) + (juiceNum*juicePrize) + (toastNum*toastPrize);
     
     if (account==0) {

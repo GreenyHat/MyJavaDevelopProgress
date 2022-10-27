@@ -23,7 +23,7 @@ public class Ex_4_extra {
      public static void main(String[] args){ 
          
     Float heigh=0.0f, heighSum=0.0f, media=0.0f, max = 0.0f, less = 3.0f;
-    int counter = 0, members=0, console;
+    int counter = 0, console;
     Scanner scKey = new Scanner (System.in);
 
     do{
@@ -34,7 +34,7 @@ public class Ex_4_extra {
            "3. Show me the bigger heigh \n" + 
            "4. Show me the smaller heigh");
        console=scKey.nextInt();
-       
+
     switch (console){
 
            
@@ -43,19 +43,20 @@ public class Ex_4_extra {
              case 0:
 
                System.out.println("You have left the program");
+               scKey.close();
                break;
                
              case 1: 
         
                    
                System.out.println("Number of particimant: ");
-               members = scKey.nextInt();
+               scKey.nextInt();
                counter++;
                
                System.out.println("Heigh: ");
                heigh = scKey.nextFloat();   
                heighSum+=heigh;
-           
+              
                
                
                
