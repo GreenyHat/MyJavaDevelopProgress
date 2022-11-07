@@ -13,16 +13,22 @@ public class Ex_6_Fibonacci {
         nFirstNumbers = scKey.nextByte();
         scKey.close();
 
-        for (int i = 0; i < nFirstNumbers; i++) {
-           
-            glass = aux;
-            aux=aux2;
-            aux2=(byte)(glass+aux2); 
-            System.out.println(glass);     
+        if (nFirstNumbers<=12) {
+            for (int i = 0; i < nFirstNumbers; i++) {
+          
+                glass = aux;
+                aux=aux2;
+                aux2=(byte)(glass+aux2); 
+                System.out.println(glass); 
+           }
+        }else{
+            System.out.println("Max 12, sorry");
+           }
+                
         }
         
 
 
 
     }
-}
+
