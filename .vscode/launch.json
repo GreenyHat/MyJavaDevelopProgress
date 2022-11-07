@@ -1,0 +1,84 @@
+{
+    // Use IntelliSense para saber los atributos posibles.
+    // Mantenga el puntero para ver las descripciones de los existentes atributos.
+    // Para más información, visite: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex_1",
+            "request": "launch",
+            "mainClass": "myjavadevelopprogress.Ex_1",
+            "projectName": "MyJavaDevelopProgress_3d86938d"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex_2",
+            "request": "launch",
+            "mainClass": "myjavadevelopprogress.Ex_2",
+            "projectName": "MyJavaDevelopProgress_3d86938d"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex_3",
+            "request": "launch",
+            "mainClass": "myjavadevelopprogress.Ex_3",
+            "projectName": "MyJavaDevelopProgress_3d86938d"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex_4_extra",
+            "request": "launch",
+            "mainClass": "myjavadevelopprogress.Ex_4_extra",
+            "projectName": "MyJavaDevelopProgress_3d86938d"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex_5_DNI",
+            "request": "launch",
+            "mainClass": "myjavadevelopprogress.Ex_5_DNI",
+            "projectName": "MyJavaDevelopProgress_3d86938d"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex_6_Fibonacci",
+            "request": "launch",
+            "mainClass": "myjavadevelopprogress.Ex_6_Fibonacci",
+            "projectName": "MyJavaDevelopProgress_3d86938d"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex_7_RandomNum",
+            "request": "launch",
+            "mainClass": "myjavadevelopprogress.Ex_7_RandomNum",
+            "projectName": "MyJavaDevelopProgress_3d86938d"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex_5",
+            "request": "launch",
+            "mainClass": "myjavadevelopprogress.pildoras_informaticas.Ex_5",
+            "projectName": "MyJavaDevelopProgress_3d86938d"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex_6",
+            "request": "launch",
+            "mainClass": "myjavadevelopprogress.pildoras_informaticas.Ex_6",
+            "projectName": "MyJavaDevelopProgress_3d86938d"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex_7_sqtrScanner",
+            "request": "launch",
+            "mainClass": "myjavadevelopprogress.pildoras_informaticas.Ex_7_sqtrScanner",
+            "projectName": "MyJavaDevelopProgress_3d86938d"
+        }
+    ]
+}
