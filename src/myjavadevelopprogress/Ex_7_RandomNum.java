@@ -12,7 +12,7 @@ public class Ex_7_RandomNum {
       
         System.out.println( "Try to guess what number I'm thinking between one and nine: ");
         userNum = scKEy.nextByte();
-        randomNum=(byte)Math.floor(Math.random()*(10-1)+1);
+        randomNum=(byte)Math.floor(Math.random()*9+1);
 
         for (failCounter = 0; failCounter < 3 && !correctNum ; failCounter++) {
 

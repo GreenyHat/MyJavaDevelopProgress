@@ -9,7 +9,7 @@ public class Ex_6_Fibonacci {
         Scanner scKey = new Scanner(System.in);
         byte nFirstNumbers = 0, aux = 0, aux2 = 1, glass = 0;
 
-        System.out.println("Choose a number to limit the sequence(12 is the limit cause I've used byte like variable): ");
+        System.out.println("Choose a number to limit the sequence(12 max, cause I've used byte like variable): ");
         nFirstNumbers = scKey.nextByte();
         scKey.close();
 

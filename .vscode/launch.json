@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Ex_11_SimpleValueCounter",
+            "request": "launch",
+            "mainClass": "myjavadevelopprogress.pildoras_informaticas.Ex_11_SimpleValueCounter",
+            "projectName": "MyJavaDevelopProgress_ff2eff02"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex_8_EmailValidation",
+            "request": "launch",
+            "mainClass": "myjavadevelopprogress.pildoras_informaticas.Ex_8_EmailValidation",
+            "projectName": "MyJavaDevelopProgress_ff2eff02"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"

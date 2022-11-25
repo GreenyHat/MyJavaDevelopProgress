@@ -3,7 +3,7 @@ import javax.swing.JOptionPane;
 // import java.util.Scanner;
 public class Ex_7_sqtrScanner {
     public static void main(String[] args) {
-        int number = Integer.parseInt(JOptionPane.showInputDialog("Give me a number to calulate the square root"));
+        int number = Integer.parseInt(JOptionPane.showInputDialog("Give me a number to calculate the square root"));
         // Scanner scKey = new Scanner(System.in);
 
         float result= (float)Math.sqrt(number);//Casting to float 
