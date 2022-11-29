@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Ex_9_FactorialNumber",
+            "request": "launch",
+            "mainClass": "myjavadevelopprogress.pildoras_informaticas.Ex_9_FactorialNumber",
+            "projectName": "MyJavaDevelopProgress_3d86938d"
+        },
+        {
+            "type": "java",
+            "name": "Launch UseTesting",
+            "request": "launch",
+            "mainClass": "myjavadevelopprogress.pildoras_informaticas.POO.UseTesting",
+            "projectName": "MyJavaDevelopProgress_3d86938d"
+        },
+        {
+            "type": "java",
             "name": "Launch Ex_11_SimpleValueCounter",
             "request": "launch",
             "mainClass": "myjavadevelopprogress.pildoras_informaticas.Ex_11_SimpleValueCounter",
