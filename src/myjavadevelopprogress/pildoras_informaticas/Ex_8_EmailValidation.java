@@ -9,35 +9,44 @@ public class Ex_8_EmailValidation {
      * @throws IOException
      */
     public static void main(String[] args) throws IOException {
-    String email;
-    byte atSign = 0;
-    boolean dot = false;
-    
-     email = JOptionPane.showInputDialog("Introduce your email: ");
+        String email;
+        byte atSign = 0;
+        boolean dot = false;
 
-     for (int i = 0; i < email.length(); i++) {
+        email = JOptionPane.showInputDialog("Introduce your email: ");
 
-        if (email.charAt(i)=='@') {
-            atSign++;
-            
+        for (int i = 0; i < email.length(); i++) {
+
+            if (email.charAt(i) == '@') {
+                atSign++;
+
+            } else if (email.charAt(i) == '.') {
+                dot = true;
+            }
+
         }
-        else if (email.charAt(i)=='.') {
-            dot = true;
+        if (email.length() < 8 || !dot) {
+            System.out.println("Your email must be longer");
         }
-        
-    }
-    if (email.length()<4) {
-        System.out.println("Your email must be longer");
-    }
 
-    else if (atSign>1) {
-        System.out.println("You cannot to use more than one @");
-        
-    }
-    
-    else{
-        System.out.println("Welcome to Accenture: ");
-    }
-    
+        // RESTRICTIONS:
+        else if (atSign > 1) {
+            System.out.println("You cannot to use more than one @");
+
+        }
+
+         else if (email.charAt(email.length() - 1) == '.') {
+            System.out.println("Incorrect format :)");
+
+        }
+
+        else if (email.charAt(email.length() - email.length()) == '.') {
+            System.out.println("You cannot write a dot at the first :S");
+        }
+
+        else {
+            System.out.println("Welcome to Accenture: ");
+        }
+
     }
 }
