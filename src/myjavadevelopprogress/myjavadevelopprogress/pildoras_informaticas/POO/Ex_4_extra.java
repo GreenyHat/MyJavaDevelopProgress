@@ -2,12 +2,12 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package myjavadevelopprogress;
 
 /**
  *
  * @author Greeny
  */
+package myjavadevelopprogress.pildoras_informaticas.POO;
 import java.util.Scanner;
 
 public class Ex_4_extra {

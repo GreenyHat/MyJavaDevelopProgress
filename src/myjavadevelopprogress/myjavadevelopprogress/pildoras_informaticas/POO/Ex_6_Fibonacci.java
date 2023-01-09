@@ -1,5 +1,4 @@
-package myjavadevelopprogress;
-
+package myjavadevelopprogress.pildoras_informaticas.POO;
 import java.util.Scanner;
 
 
