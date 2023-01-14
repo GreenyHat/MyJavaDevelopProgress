@@ -2,10 +2,13 @@ package myjavadevelopprogress.pildoras_informaticas.POO;
 
 public class TestingClasses {
 
-    public TestingClasses(){//contructor de la clase mediante el que se crean objetos de la clase
+    public TestingClasses(){//CONSTRUCTOR de la clase mediante el que se crean objetos de la clase
 
-        propertyInt = 4;
-        porpertyDouble = 2.1;
+    //public TestingClasses(int propertyInt){//CONSTRUCTOR con parametros
+
+        // this.propertyInt = propertyInt; para indicar que el nuevo valor lo obtiene la variable de la clase, para eso el this
+        propertyInt = 5;
+        propertyDouble = 2.1;
         propertyString = "not defined";
 
     }
@@ -15,7 +18,7 @@ public class TestingClasses {
     }
 
     public void setPropertyDouble(){
-        porpertyDouble = 5.6;
+        propertyDouble = 5.6;
     }
 
     public String getPropString(){//metodo getter devuelve valor de propiedad
@@ -23,12 +26,16 @@ public class TestingClasses {
         
     }
 
-    public double getPrpertyDouble(){
-        return porpertyDouble;
+    public double getPropertyDouble(){
+        return propertyDouble;
+    }
+
+    public int getPropertyInt(){
+        return propertyInt;
     }
 
     private int propertyInt;
     private String propertyString;
-    private double porpertyDouble;
+    private double propertyDouble;
     
 }

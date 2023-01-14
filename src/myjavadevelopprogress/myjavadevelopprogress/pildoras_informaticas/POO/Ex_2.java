@@ -1,8 +1,8 @@
+package myjavadevelopprogress.pildoras_informaticas.POO;
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package myjavadevelopprogress;
 
 import java.util.Scanner;
 
