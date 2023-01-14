@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch UseBankAccount",
+            "request": "launch",
+            "mainClass": "myjavadevelopprogress.pildoras_informaticas.POO.UseBankAccount",
+            "projectName": "MyJavaDevelopProgress"
+        },
+        {
+            "type": "java",
+            "name": "Launch UseTesting",
+            "request": "launch",
+            "mainClass": "myjavadevelopprogress.pildoras_informaticas.POO.UseTesting",
+            "projectName": "MyJavaDevelopProgress"
+        },
+        {
+            "type": "java",
             "name": "Launch Ex_3",
             "request": "launch",
             "mainClass": "Ex_3",
