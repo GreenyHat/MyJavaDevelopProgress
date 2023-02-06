@@ -11,11 +11,11 @@ public class Ex_8_EmailValidation {
     public static void main(String[] args) throws IOException {
         String email;
         byte atSign = 0;
-        boolean dot = false;
+        boolean dot = false, firstDot = false;
 
         email = JOptionPane.showInputDialog("Introduce your email: ");
 
-        for (int i = 0; i < email.length(); i++) {
+        for (int i = 0; i < email.length() && !firstDot; i++) {
 
             if (email.charAt(i) == '@') {
                 atSign++;
@@ -24,27 +24,24 @@ public class Ex_8_EmailValidation {
                 dot = true;
             }
 
+            else if (email.charAt(0) == '.') {
+                firstDot = true;
+            }
+
         }
+        // RESTRICTIONS:
         if (email.length() < 8 || !dot) {
             System.out.println("Your email must be longer");
-        }
-
-        // RESTRICTIONS:
+        }     
         else if (atSign > 1) {
+
             System.out.println("You cannot to use more than one @");
-
         }
+        else if (firstDot) {
 
-         else if (email.charAt(email.length() - 1) == '.') {
-            System.out.println("Incorrect format :)");
-
-        }
-
-        else if (email.charAt(email.length() - email.length()) == '.') {
-            System.out.println("You cannot write a dot at the first :S");
-        }
-
-        else {
+            System.out.println("You cannot write a dot at the first");
+            
+        }else {
             System.out.println("Welcome to Accenture: ");
         }
 
