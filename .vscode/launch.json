@@ -6,6 +6,7 @@
     "configurations": [
         {
             "type": "java",
+<<<<<<< HEAD
             "name": "Launch UseBankAccount",
             "request": "launch",
             "mainClass": "myjavadevelopprogress.pildoras_informaticas.POO.UseBankAccount",
@@ -31,6 +32,12 @@
             "request": "launch",
             "mainClass": "Ex_2",
             "projectName": "MyJavaDevelopProgress"
+=======
+            "name": "Launch Ex_8_EmailValidation",
+            "request": "launch",
+            "mainClass": "myjavadevelopprogress.pildoras_informaticas.Ex_8_EmailValidation",
+            "projectName": "MyJavaDevelopProgress_3d86938d"
+>>>>>>> 0d150b0 (class-pract)
         },
         {
             "type": "java",

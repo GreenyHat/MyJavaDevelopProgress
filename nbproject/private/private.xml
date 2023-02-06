@@ -3,10 +3,17 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+<<<<<<< HEAD
             <file>file:/Users/greeny/Documents/MyJavaDevelopProgress/src/myjavadevelopprogress/Ex_3.java</file>
             <file>file:/Users/greeny/Documents/MyJavaDevelopProgress/src/myjavadevelopprogress/Ex_6_Fibonacci.java</file>
             <file>file:/Users/greeny/Documents/MyJavaDevelopProgress/src/myjavadevelopprogress/Ex_4_extra.java</file>
             <file>file:/Users/greeny/Documents/MyJavaDevelopProgress/src/myjavadevelopprogress/Ex_5_DNI.java</file>
+=======
+            <file>file:/C:/Users/34601/Documents/MyJavaDevelopProgress/src/ejemplo_superClase/SerVivo.java</file>
+            <file>file:/C:/Users/34601/Documents/MyJavaDevelopProgress/src/ejemplo_superClase/Animal.java</file>
+            <file>file:/C:/Users/34601/Documents/MyJavaDevelopProgress/src/ejemplo_superClase/AnimalCarnivoro.java</file>
+            <file>file:/C:/Users/34601/Documents/MyJavaDevelopProgress/src/ejemplo_superClase/Planta.java</file>
+>>>>>>> 0d150b0 (class-pract)
         </group>
     </open-files>
 </project-private>
