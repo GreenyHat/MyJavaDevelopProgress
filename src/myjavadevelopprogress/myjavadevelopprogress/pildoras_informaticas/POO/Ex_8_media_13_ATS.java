@@ -5,22 +5,65 @@ import javax.swing.JOptionPane;
 public class Ex_8_media_13_ATS {
 
     public static void main(String[] args) {
-        int number, positives = 0, negatives = 0, zeroCount = 0;
+        int number, posCounter = 0, negCounter = 0, zeroCount = 0, sumPositives = 0, sumNegatives = 0;
+        float positiveAvg, negativeAvg;
 
-        
+        for (int i = 0; i <= 10; i++) {
+            number = Integer.parseInt(JOptionPane.showInputDialog("Give me a number:"));
 
-            for (int numbers = 0; numbers <= 10; numbers++) {
-                number = Integer.parseInt(JOptionPane.showInputDialog("give me a numbers:"));
-                if (panel > 0) {
-                    positives++;
-                } else if (panel == 0) {
-                    zeroCount++;
-                } else {
-                    negatives++;
-                }
-                System.out.println("La media de los positivos es : ");
+            if (number == 0) {
+                zeroCount++;
+            }else if (number>0) {
+                posCounter++;
+                sumPositives=+number;
+            }else{
+                negCounter++;
+                sumNegatives=+number;
             }
 
+            // public class Error { // Dentro error
+            //      if (number > 0) {
+            //     sumPositives=+i;
+            //     posCounter++;
+            //     number = sumNegatives/posCounter;
+               
+            // } else if (i == 0) {
+            //     zeroCount++;
+               
+
+            // } else {
+            //     negCounter=+i;
+            //     negCounter++;
+            //     number = sumPositives/negCounter;
+                
+
+            // }
+            // }
+
+            // }
+            
+        }
+
+        //Tratando con los positivos
+        if (posCounter==0) {
+            System.out.println("Cannot be extracted the averange");
+        }else{
+            positiveAvg = (float) sumPositives/posCounter;
+            System.out.println("The averange of the positives numbers is: " + positiveAvg);
+        }
+
+        if (negCounter==0) {
+            System.out.println("Cannot be extracted the averange");
+        }else{
+            negativeAvg = (float) sumNegatives/negCounter;
+            System.out.println("The averange of the positives numbers is: " + negativeAvg);
+        }
+
+        if (zeroCount==0) {
+            System.out.println("There is not zeros");
+        }else{
+            System.out.println("There are " + zeroCount + " zeros");
+        }
         
 
     }
