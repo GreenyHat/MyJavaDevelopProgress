@@ -14,7 +14,7 @@ public class Ex_7_RandomNum {
         System.out.println( "Try to guess what number I'm thinking between one and nine: ");
         userNum = scKEy.nextByte();
         randomNum=(byte)Math.floor(Math.random()*9+1);
-
+        //IMPORTANTE!!@GreenyHat para el rango de numeros Math.random()*a+b [donde 'a' es el maximo y 'b' es el minimo del rango]
         for (failCounter = 0; failCounter < 3 && !correctNum ; failCounter++) {
 
             if (randomNum<userNum) {

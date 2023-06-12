@@ -17,6 +17,20 @@ public class Ex_10_TestMultidimensionalArrays {
         }
 
 
-        
+        System.out.println("Por otro lado:");
+
+        //Recorrido de un array solo numeros impares:
+
+        int [] arrayTest = new int[40];
+
+        for (int i = 0; i < arrayTest.length; i++) {
+
+            if (i%2!=0) {
+                arrayTest[i]=i;
+                System.out.println(i);
+            }
+
+        }
+
     }
 }

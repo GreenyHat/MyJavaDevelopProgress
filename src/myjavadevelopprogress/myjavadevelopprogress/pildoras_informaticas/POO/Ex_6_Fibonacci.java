@@ -27,7 +27,7 @@ public class Ex_6_Fibonacci {
         nFirstNumber = scKey.nextByte();
         scKey.close();
 
-        
+         
 
         if (nFirstNumber<=12) {
             System.out.println("Fibonacci sequence:");

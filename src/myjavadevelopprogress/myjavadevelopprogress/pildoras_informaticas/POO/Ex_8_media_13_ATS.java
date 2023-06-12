@@ -51,14 +51,14 @@ public class Ex_8_media_13_ATS {
             positiveAvg = (float) sumPositives/posCounter;
             System.out.println("The averange of the positives numbers is: " + positiveAvg);
         }
-
+        //Negativos
         if (negCounter==0) {
             System.out.println("Cannot be extracted the averange");
         }else{
             negativeAvg = (float) sumNegatives/negCounter;
             System.out.println("The averange of the positives numbers is: " + negativeAvg);
         }
-
+        //Cero
         if (zeroCount==0) {
             System.out.println("There is not zeros");
         }else{
