@@ -8,8 +8,7 @@ public class TestingClasses {
     private boolean element2;
     private boolean element3;
 
-    public TestingClasses() {// CONSTRUCTOR de la clase mediante el que se crean objetos de la clase (sin
-                             // parámetros)
+    public TestingClasses(){//CONSTRUCTOR de la clase mediante el que se crean objetos de la clase
 
         propertyInt = 3;
         propertyDouble = 2.3;
@@ -52,18 +51,8 @@ public class TestingClasses {
         propertyDouble = 5.6;
     }
 
-    public void setPropertyInt(int propertyInt) {
-        this.propertyInt = propertyInt;
-    }
-
-    public String getPropertyBool() {
-
-        if (element1 && !element2 && !element3)
-            return "We have one element";
-        else if (element1 && element2 && element3)
-            return "We have more than one elements";
-        else
-            return "No valid value";
+    public void setPropertyInt(){
+        propertyInt = 2;
     }
 
     public String getPropString() {// metodo getter devuelve valor de propiedad
@@ -78,4 +67,5 @@ public class TestingClasses {
     public int getPropertyInt() {
         return propertyInt;
     }
+    
 }
