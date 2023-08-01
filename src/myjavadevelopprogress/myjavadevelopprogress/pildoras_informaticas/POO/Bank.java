@@ -17,7 +17,7 @@ class Bank {
 
         TestingBankAccount newAccount = new TestingBankAccount(amount, user);
 
-        System.out.println("Account created with user: " + user + " and amount: " + amount);
+        System.out.println("Account created with user: " + user + " and amount: " + amount + "\n");
         return newAccount;
     }
 

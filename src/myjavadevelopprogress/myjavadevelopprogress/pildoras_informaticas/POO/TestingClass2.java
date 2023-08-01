@@ -3,25 +3,39 @@ package myjavadevelopprogress.pildoras_informaticas.POO;
 import java.util.Scanner;
 
 public class TestingClass2 {
-    private String xString;
-    private int xInteger;
-    private float xFloat;
-    private double xDouble;
-    private char xChar;
-    private Scanner xSc;
+    private Scanner sc;
+    private String name;
+    private int age;
 
-    public TestingClass2(){
+    public void Initialize() {
+        sc = new Scanner(System.in);
+        System.out.print("Name: ");
+        name = sc.next();
+        System.out.print("Age: ");
+        age = sc.nextInt();
+        sc.close();
+    }
 
-        xString = "Hola";
-        xInteger = 34;
-        xFloat = 23.32f;
-        xDouble = 2.5;
-        xChar = 'A';
-        xSc = new Scanner(System.in);
+    public void ShowData() {
+        System.out.println("\nNombre: " + name);
+        System.out.println("Age: " + age);
 
     }
-    public void setxSc(Scanner xSc) {
-        this.xSc = xSc;
+
+    public void IsAdult() {
+        if (age >= 21) {
+            System.out.println("The subjet is an adult");
+        } else {
+            System.out.println("The subject is not an adult");
+        }
+    }
+
+    public static void main(String[] args) {
+
+        TestingClass2 subject = new TestingClass2();
+        subject.Initialize();
+        subject.ShowData();
+        subject.IsAdult();
     }
 
 }
