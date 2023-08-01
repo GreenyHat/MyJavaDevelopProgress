@@ -7,6 +7,8 @@ public class TestingClasses {
     private boolean element1;
     private boolean element2;
     private boolean element3;
+    private boolean propertyBool;
+
 
     public TestingClasses(){//CONSTRUCTOR de la clase mediante el que se crean objetos de la clase
 
@@ -58,6 +60,10 @@ public class TestingClasses {
     public String getPropString() {// metodo getter devuelve valor de propiedad
         return propertyString;
 
+    }
+
+    public boolean getPropertyBool(){
+        return propertyBool;
     }
 
     public double getPropertyDouble() {
