@@ -8,9 +8,9 @@ public class Branch {
 
     public Branch() {
 
-        this.branchNum = branchNum;
-        this.address = address;
-        this.city = city;
+        // this.branchNum = branchNum;
+        // this.address = address;
+        // this.city = city;
 
     }
 

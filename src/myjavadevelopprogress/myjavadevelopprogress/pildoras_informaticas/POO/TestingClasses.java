@@ -4,9 +4,9 @@ public class TestingClasses {
     private int propertyInt;
     private String propertyString;
     private double propertyDouble;
-    private boolean element1;
-    private boolean element2;
-    private boolean element3;
+    // private boolean element1;
+    // private boolean element2;
+    // private boolean element3;
     private boolean propertyBool;
 
 
@@ -33,17 +33,17 @@ public class TestingClasses {
         this.propertyString = propeString;
     }
 
-    public void setPropertyBool(boolean element1) {// es redundante pero es para ejemplificar la sobrecarga de métodos
+    // public void setPropertyBool(boolean element1) {// es redundante pero es para ejemplificar la sobrecarga de métodos
 
-        this.element1 = element1;
-    }
+    //     this.element1 = element1;
+    // }
 
-    public void setPropertyBool(boolean element1, boolean element2, boolean element3) {
+    // public void setPropertyBool(boolean element1, boolean element2, boolean element3) {
 
-        this.element1 = element1;
-        this.element2 = element2;
-        this.element3 = element3;
-    }
+    //     this.element1 = element1;
+    //     this.element2 = element2;
+    //     this.element3 = element3;
+    // }
 
     public void setPropertyString() {// metodo setter establece valor de propiedad
         propertyString = "defined";// es privado pero accedemos con el metodo setter para ESTABLECER UN VALOR

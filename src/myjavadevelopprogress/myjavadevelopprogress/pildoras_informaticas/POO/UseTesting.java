@@ -18,7 +18,7 @@ public class UseTesting {
         testing.setPropertyInt();// Con esto estamos definiendo en la instancia la propiedad
         System.out.println(testing.getPropertyInt());
 
-        testing.setPropertyBool(false, true, false);// SOBRECARGA DE MÉTODOS, SI PONEMOS 3 argumentos llamará al otro
+        // testing.setPropertyBool(false, true, false);// SOBRECARGA DE MÉTODOS, SI PONEMOS 3 argumentos llamará al otro
                                                     // setter, si ponemos 1 llamará al
         System.out.println(testing.getPropertyBool());
 
