@@ -14,6 +14,8 @@ public class MethodWithParameter {
         sc.close();
         int bigger = calculateBigger(value,value2,value3);        
         System.out.println("\nThe bigger is: "+ bigger);
+        int smaller = calculateSmaller(value,value2,value3);
+        System.out.println("\nThe smaller is:"+ smaller);
 
     }
 
@@ -21,6 +23,16 @@ public class MethodWithParameter {
         if (v1>v2&&v1>v3) {
             return v1;
         }else if (v2>v3) {
+            return v2;
+        }else {
+            return v3;
+        }
+    }
+
+    public int calculateSmaller(int v1, int v2, int v3){
+        if (v1<v2 && v1<v3) {
+            return v1;
+        }else if (v2<v1 && v2<v3) {
             return v2;
         }else {
             return v3;
