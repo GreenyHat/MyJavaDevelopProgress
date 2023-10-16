@@ -3,7 +3,7 @@ package myjavadevelopprogress.pildoras_informaticas.POO;
 import java.util.Random;
 
 /**
- * Esta clase representa se encarga de la creación de una cuenta bancaria y de
+ * Esta clase se encarga de la creación de una cuenta bancaria y de
  * diversas operaciones sencillas que se pueden realizar con ella 
  * @version 1.2
  * @author GreenyHat

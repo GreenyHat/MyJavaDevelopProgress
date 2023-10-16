@@ -9,8 +9,7 @@ public class TestingClasses {
     // private boolean element3;
     private boolean propertyBool;
 
-
-    public TestingClasses(){//CONSTRUCTOR de la clase mediante el que se crean objetos de la clase
+    public TestingClasses() {// CONSTRUCTOR de la clase mediante el que se crean objetos de la clase
 
         propertyInt = 3;
         propertyDouble = 2.3;
@@ -33,16 +32,18 @@ public class TestingClasses {
         this.propertyString = propeString;
     }
 
-    // public void setPropertyBool(boolean element1) {// es redundante pero es para ejemplificar la sobrecarga de métodos
+    // public void setPropertyBool(boolean element1) {// es redundante pero es para
+    // ejemplificar la sobrecarga de métodos
 
-    //     this.element1 = element1;
+    // this.element1 = element1;
     // }
 
-    // public void setPropertyBool(boolean element1, boolean element2, boolean element3) {
+    // public void setPropertyBool(boolean element1, boolean element2, boolean
+    // element3) {
 
-    //     this.element1 = element1;
-    //     this.element2 = element2;
-    //     this.element3 = element3;
+    // this.element1 = element1;
+    // this.element2 = element2;
+    // this.element3 = element3;
     // }
 
     public void setPropertyString() {// metodo setter establece valor de propiedad
@@ -50,11 +51,15 @@ public class TestingClasses {
     }
 
     public void setPropertyDouble() {
-        propertyDouble = 5.6;
+        propertyDouble = 4.6;
     }
 
-    public void setPropertyInt(){
+    public void setPropertyInt() {
         propertyInt = 2;
+    }
+
+    public void setPropertyInt(int propertyInt) {
+        this.propertyInt = propertyInt;
     }
 
     public String getPropString() {// metodo getter devuelve valor de propiedad
@@ -62,7 +67,7 @@ public class TestingClasses {
 
     }
 
-    public boolean getPropertyBool(){
+    public boolean getPropertyBool() {
         return propertyBool;
     }
 
@@ -73,5 +78,5 @@ public class TestingClasses {
     public int getPropertyInt() {
         return propertyInt;
     }
-    
+
 }
