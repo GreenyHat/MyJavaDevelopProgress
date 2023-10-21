@@ -44,7 +44,7 @@ public class SalaryPerTurn {
         while (indexAM < 4) {
             System.out.print("Enter the salary for morning shift " + (indexAM + 1) + ": ");
             salary = sc.nextDouble();
-            if (salary <= 1500 && indexAM < 4) {
+            if (salary > 0 && salary <= 1500) {
                 employeeAM[indexAM] = (int) salary;
                 indexAM++;
             } else {
@@ -58,7 +58,7 @@ public class SalaryPerTurn {
         while (indexPM < 4) {
             System.out.print("Enter the salary for afternoon shift " + (indexPM + 1) + ": ");
             salary = sc.nextDouble();
-            if (salary > 1500 && indexPM < 4) {
+            if (salary > 1500) {
                 employeePM[indexPM] = (int) salary;
                 indexPM++;
             } else {
