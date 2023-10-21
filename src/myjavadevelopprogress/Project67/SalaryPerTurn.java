@@ -26,17 +26,16 @@ package Project67;
 import java.util.Scanner;
 
 public class SalaryPerTurn {
-    private int[] employeeAM, employeePM;
-    private double salary;
-    private Scanner sc;
-
-
+    private int[] employeeAM, employeePM;  
+    
     // PROPUESTA MEJORADA:
 
     public void loadData() {
         employeeAM = new int[4];
         employeePM = new int[4];
-        sc = new Scanner(System.in);
+        private Scanner sc = new Scanner(System.in);
+
+        private double salary;
 
         int indexAM = 0, indexPM = 0;
 
