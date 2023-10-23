@@ -7,12 +7,10 @@ class Bank {
     private Scanner scKey = new Scanner(System.in);
 
     public TestingBankAccount createNewAccount() {
-        System.out.println("Name of the user: ");
-        String user = scKey.next() + scKey.nextLine();// Esto es para saltar a la linea correspondiente y esperar el
-                                                      // newLine, ya que de lo contrario un salto de linea se queda
-                                                      // almacenado en el buffer y salta directamente al amount
+        System.out.print("Name of the user: ");
+        String user = scKey.next();
 
-        System.out.println("Initial amount: ");
+        System.out.print("Initial amount: ");
         double amount = scKey.nextDouble();
 
         TestingBankAccount newAccount = new TestingBankAccount(amount, user);

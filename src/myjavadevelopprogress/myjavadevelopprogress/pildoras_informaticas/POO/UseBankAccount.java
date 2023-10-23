@@ -20,7 +20,7 @@ public class UseBankAccount {// Ej 42 de pildoras
 
         System.out.println("Account 1 information: ");
         System.out.println(bank.getAccountInfo(account1));
-        System.out.println("Account 2 information: ");
+        System.out.println("\nAccount 2 information: ");
         System.out.println(bank.getAccountInfo(account2));
         scKey.close();
 
